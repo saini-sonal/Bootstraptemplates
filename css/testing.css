@@ -1,0 +1,58 @@
+*{
+  outline: none;
+}
+.navbar{
+  background-color: #000;
+  transition: all 0.25s ease;
+}
+.navbar.hidden{
+  transform: translateY(-100%);
+}
+.card-img-top{
+  height: 300px;
+}
+
+.fancybox-content {background: transparent;
+overflow: hidden;
+margin-top: 150px;
+margin-right:150px;
+}
+
+.portfolio-box{
+  border: 0;
+  outline: none;
+  text-decoration: none;
+}
+.video_sec {
+    background-image: url(../image/video-bg.jpg);
+    background-repeat: no-repeat;
+    padding-top: 12rem !important;
+}
+.video_content_col{
+  background: #f7f7f7;
+  margin-left: 3rem;
+}
+.left-top-strip::before{
+  content: "";
+  position: absolute;
+  background: #fff;
+width:59%;
+top: 0;
+left: 0;
+height: 70px;
+z-index: 9;
+}
+
+.pos-relative {
+    position: relative;
+}
+.left-top-strip::after{
+  content: "";
+  position: absolute;
+  background: #ffd6b7;
+right:41%;
+top: 61px;
+height: 9px;
+width: 30%;
+z-index:99;
+}
